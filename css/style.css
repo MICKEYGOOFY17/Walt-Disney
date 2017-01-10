@@ -1,0 +1,271 @@
+
+body
+{
+  background: url(../img/background.jpg);
+  background-attachment: fixed;
+}
+
+.main
+{
+  background: white;
+}
+
+header
+{
+  background-color: black;
+  height:100;
+  width: 960px;
+  position: fixed;
+  margin-top: -10px;
+  z-index: 1;
+}
+
+header h1
+{
+  margin:0px;
+  padding:0px;
+  margin-top: 20px;
+}
+
+header nav
+{
+  margin:0px;
+  padding:0px;
+  margin-top: 40px;
+  text-align: right;
+}
+
+#logo
+{
+  width:200;
+  height:100;
+}
+
+#font{
+  font-family: 'Pacifico', cursive;
+  color: #489AFD;
+  width: 310px;
+  height: 100px;
+  text-shadow: 1px 1px 1px red;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline;
+  color: white;
+  font-size: 18px;
+  padding-right: 12px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+.row2 a:hover{
+  color: black;
+}
+
+.side
+{
+  margin-top: -40px;
+}
+
+.row2 a
+{
+  color: blue;
+  text-shadow: 1px 1px 1px purple;
+}
+
+.selected
+{
+  color: lightblue;
+}
+
+.studio
+{
+  width: 940px;
+}
+
+.studio1
+{
+  width: 940px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.studio2
+{
+  width: 940px;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.studio2 h4
+{
+  color: lightblue;
+}
+
+figure
+{
+  margin: 10px auto;
+  padding: 0px;
+}
+
+.imgs
+{
+  width: 300px;
+  height: 168px;
+}
+
+.row3
+{
+  width:470px;
+  height: 300px;
+}
+
+h4
+{
+  color: grey;
+}
+
+h2
+{
+  text-shadow: 2px 2px 2px grey;
+  padding-top: 15px;
+}
+
+footer
+{
+  background: black;
+  color:  #489AFD;
+}
+
+.foot
+{
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 950px !important;
+}
+
+footer li
+{
+  display: inline;
+  list-style-type: none;
+  padding-right: 15px;
+  margin: -5px;
+}
+
+footer ul{
+  width: 200px;
+}
+
+.forum
+{
+   text-indent: 100px;
+   color: grey;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.row4
+{
+  text-align: center;
+}
+
+.row5
+{
+  text-align: right;
+}
+
+.copyright
+{
+  font-size: 25px;
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (max-width : 919px)
+{
+  body{
+    min-width: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .container_12
+  {
+    width: 98% !important;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_9,.grid_12
+  {
+    width: 96% !important;
+  }
+
+  #logo
+  {
+    display: none;
+  }
+
+  header
+  {
+    width: 100%;
+    height: 130px;
+  }
+
+  .studio
+  {
+    width: 100% !important;
+    margin-top: 50px;
+  }
+
+  #font
+  {
+    text-align: center;
+  }
+
+  header nav
+  {
+    margin-top: -40px;
+    text-align: center;
+  }
+
+  iframe
+  {
+    width: 96% !important;
+  }
+
+  .first
+  {
+    margin-top: 50px;
+  }
+
+  .foot
+  {
+    width: 100% !important;
+  }
+
+  footer ul
+  {
+    width: 100%;
+    text-indent: -40px;
+  }
+
+  .row5
+  {
+    text-align: center;
+  }
+
+}
